@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25154127217174C40038869C /* Flights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25154126217174C40038869C /* Flights.swift */; };
+		25154129217174FB0038869C /* LufthansaAPIAppTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25154128217174FB0038869C /* LufthansaAPIAppTest.swift */; };
+		2515412B217175830038869C /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515412A217175830038869C /* Airports.swift */; };
+		2515412F217177590038869C /* FlightStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515412E217177590038869C /* FlightStatusViewController.swift */; };
+		25154131217177690038869C /* AirportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25154130217177690038869C /* AirportsViewController.swift */; };
+		25154133217177890038869C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25154132217177890038869C /* FavoritesViewController.swift */; };
+		2515413821718CAC0038869C /* FlightStatus-UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515413721718CAC0038869C /* FlightStatus-UISetup.swift */; };
+		2515413A21718F500038869C /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515413921718F500038869C /* StyledButton.swift */; };
+		2515413C2171915B0038869C /* UIHelperExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515413B2171915B0038869C /* UIHelperExtension.swift */; };
+		2515413E2172B9010038869C /* FlightInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515413D2172B9010038869C /* FlightInfoViewController.swift */; };
+		251541402172B9360038869C /* FlightInfo-UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515413F2172B9360038869C /* FlightInfo-UISetup.swift */; };
 		25C57842216E9EE600EA7D06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C57841216E9EE600EA7D06 /* AppDelegate.swift */; };
-		25C57844216E9EE600EA7D06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C57843216E9EE600EA7D06 /* ViewController.swift */; };
 		25C57847216E9EE600EA7D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C57845216E9EE600EA7D06 /* Main.storyboard */; };
 		25C57849216E9EE800EA7D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C57848216E9EE800EA7D06 /* Assets.xcassets */; };
 		25C5784C216E9EE800EA7D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C5784A216E9EE800EA7D06 /* LaunchScreen.storyboard */; };
@@ -37,9 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25154126217174C40038869C /* Flights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flights.swift; sourceTree = "<group>"; };
+		25154128217174FB0038869C /* LufthansaAPIAppTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufthansaAPIAppTest.swift; sourceTree = "<group>"; };
+		2515412A217175830038869C /* Airports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		2515412E217177590038869C /* FlightStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusViewController.swift; sourceTree = "<group>"; };
+		25154130217177690038869C /* AirportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsViewController.swift; sourceTree = "<group>"; };
+		25154132217177890038869C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		2515413721718CAC0038869C /* FlightStatus-UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightStatus-UISetup.swift"; sourceTree = "<group>"; };
+		2515413921718F500038869C /* StyledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
+		2515413B2171915B0038869C /* UIHelperExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelperExtension.swift; sourceTree = "<group>"; };
+		2515413D2172B9010038869C /* FlightInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoViewController.swift; sourceTree = "<group>"; };
+		2515413F2172B9360038869C /* FlightInfo-UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightInfo-UISetup.swift"; sourceTree = "<group>"; };
 		25C5783E216E9EE600EA7D06 /* Flight Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flight Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C57841216E9EE600EA7D06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25C57843216E9EE600EA7D06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		25C57846216E9EE600EA7D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25C57848216E9EE800EA7D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25C5784B216E9EE800EA7D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +109,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2515412321716D410038869C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25154126217174C40038869C /* Flights.swift */,
+				25154128217174FB0038869C /* LufthansaAPIAppTest.swift */,
+				2515412A217175830038869C /* Airports.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2515412421716D520038869C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2515413921718F500038869C /* StyledButton.swift */,
+				2515413B2171915B0038869C /* UIHelperExtension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2515412521716D640038869C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				251541342171873D0038869C /* Flight Status */,
+				251541352171874E0038869C /* Airports */,
+				25154136217187630038869C /* Favorites */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		251541342171873D0038869C /* Flight Status */ = {
+			isa = PBXGroup;
+			children = (
+				2515412E217177590038869C /* FlightStatusViewController.swift */,
+				2515413721718CAC0038869C /* FlightStatus-UISetup.swift */,
+				2515413D2172B9010038869C /* FlightInfoViewController.swift */,
+				2515413F2172B9360038869C /* FlightInfo-UISetup.swift */,
+			);
+			path = "Flight Status";
+			sourceTree = "<group>";
+		};
+		251541352171874E0038869C /* Airports */ = {
+			isa = PBXGroup;
+			children = (
+				25154130217177690038869C /* AirportsViewController.swift */,
+			);
+			path = Airports;
+			sourceTree = "<group>";
+		};
+		25154136217187630038869C /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				25154132217177890038869C /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
 		25C57835216E9EE600EA7D06 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +190,10 @@
 		25C57840216E9EE600EA7D06 /* Flight Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				2515412321716D410038869C /* Models */,
+				2515412421716D520038869C /* Views */,
+				2515412521716D640038869C /* Controllers */,
 				25C57841216E9EE600EA7D06 /* AppDelegate.swift */,
-				25C57843216E9EE600EA7D06 /* ViewController.swift */,
 				25C57845216E9EE600EA7D06 /* Main.storyboard */,
 				25C57848216E9EE800EA7D06 /* Assets.xcassets */,
 				25C5784A216E9EE800EA7D06 /* LaunchScreen.storyboard */,
@@ -391,8 +469,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C57844216E9EE600EA7D06 /* ViewController.swift in Sources */,
+				25154129217174FB0038869C /* LufthansaAPIAppTest.swift in Sources */,
+				251541402172B9360038869C /* FlightInfo-UISetup.swift in Sources */,
+				2515412F217177590038869C /* FlightStatusViewController.swift in Sources */,
+				25154133217177890038869C /* FavoritesViewController.swift in Sources */,
+				2515413821718CAC0038869C /* FlightStatus-UISetup.swift in Sources */,
+				2515412B217175830038869C /* Airports.swift in Sources */,
 				25C57842216E9EE600EA7D06 /* AppDelegate.swift in Sources */,
+				2515413A21718F500038869C /* StyledButton.swift in Sources */,
+				2515413C2171915B0038869C /* UIHelperExtension.swift in Sources */,
+				25154131217177690038869C /* AirportsViewController.swift in Sources */,
+				2515413E2172B9010038869C /* FlightInfoViewController.swift in Sources */,
+				25154127217174C40038869C /* Flights.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
